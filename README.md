@@ -10,4 +10,4 @@ ex:
 sh news_xml.sh 10
 ```
 
-it runs 10 concurrent donwloads that willl parsed and stored on redis db list
+it runs 10 concurrent donwloads that willl parse and store the posts on redis db list
