@@ -13,7 +13,7 @@ module NewsXml
      end
 
      def concat_to_list posts, name 
-       print "try Store [#{posts.count}] posts of name\n"
+       print "try Store [#{posts.count}] posts of #{name}\n"
        posts.each do |post|
          id = post[0]
          if @redis.sadd SET, id
